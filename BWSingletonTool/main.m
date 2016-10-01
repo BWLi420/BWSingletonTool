@@ -12,7 +12,7 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
-        //测试单例数据
+        //测试单例工具类
         BWSingletonTool *p2 = [BWSingletonTool new];
         BWSingletonTool *p1 = [[BWSingletonTool alloc] init];
         BWSingletonTool *p3 = [BWSingletonTool shareTool];

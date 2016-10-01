@@ -28,7 +28,6 @@
 		1635E95C1D9F6EBD0084FB9B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1635E95E1D9F6F670084FB9B /* BWSingletonTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWSingletonTool.h; sourceTree = "<group>"; };
 		1635E95F1D9F6F670084FB9B /* BWSingletonTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWSingletonTool.m; sourceTree = "<group>"; };
-		1635E9611D9F6FE40084FB9B /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +61,6 @@
 		1635E9541D9F6E830084FB9B /* BWSingletonTool */ = {
 			isa = PBXGroup;
 			children = (
-				1635E9611D9F6FE40084FB9B /* Singleton.h */,
 				1635E95E1D9F6F670084FB9B /* BWSingletonTool.h */,
 				1635E95F1D9F6F670084FB9B /* BWSingletonTool.m */,
 			);
