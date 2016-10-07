@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1635E95D1D9F6EBD0084FB9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1635E95C1D9F6EBD0084FB9B /* main.m */; };
 		1635E9601D9F6F670084FB9B /* BWSingletonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1635E95F1D9F6F670084FB9B /* BWSingletonTool.m */; };
+		16A92A001DA7A53800447514 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A929FF1DA7A53800447514 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,9 @@
 		1635E95C1D9F6EBD0084FB9B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1635E95E1D9F6F670084FB9B /* BWSingletonTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWSingletonTool.h; sourceTree = "<group>"; };
 		1635E95F1D9F6F670084FB9B /* BWSingletonTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWSingletonTool.m; sourceTree = "<group>"; };
+		16A929FA1DA7A4C800447514 /* BWSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWSingleton.h; sourceTree = "<group>"; };
+		16A929FE1DA7A53800447514 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		16A929FF1DA7A53800447514 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +50,8 @@
 			children = (
 				1635E9541D9F6E830084FB9B /* BWSingletonTool */,
 				1635E95C1D9F6EBD0084FB9B /* main.m */,
+				16A929FE1DA7A53800447514 /* Person.h */,
+				16A929FF1DA7A53800447514 /* Person.m */,
 				1635E9531D9F6E830084FB9B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,6 +67,7 @@
 		1635E9541D9F6E830084FB9B /* BWSingletonTool */ = {
 			isa = PBXGroup;
 			children = (
+				16A929FA1DA7A4C800447514 /* BWSingleton.h */,
 				1635E95E1D9F6F670084FB9B /* BWSingletonTool.h */,
 				1635E95F1D9F6F670084FB9B /* BWSingletonTool.m */,
 			);
@@ -125,6 +132,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16A92A001DA7A53800447514 /* Person.m in Sources */,
 				1635E9601D9F6F670084FB9B /* BWSingletonTool.m in Sources */,
 				1635E95D1D9F6EBD0084FB9B /* main.m in Sources */,
 			);
@@ -255,6 +263,7 @@
 				1635E95B1D9F6E830084FB9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
