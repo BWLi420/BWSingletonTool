@@ -24,8 +24,8 @@ p3 = 0x1001026b0
 ```
 
 ### 单例模式的宏抽取
-
 以上方法定义单例模式只适用于单个对象，如果在程序中有多个对象都需要用到单例模式时，再使用上述的方法就会显得比较笨重，这时我们就可以使用宏把单例模式抽取出来，方便以后开发中的使用。
+
 - 使用说明：如果现在需要定义一个单例类 Person，则只需要在 Person 类的 .h 文件中导入宏，然后调用 interfaceSingleton 方法：
 
 ```
@@ -46,7 +46,5 @@ Person *p4 = [p3 copy];
 Person *p5 = [p3 mutableCopy];
 ```
 得到打印结果为：
-
 ![宏抽取单例创建对象打印结果](http://upload-images.jianshu.io/upload_images/2997426-012ea3069e8b9a6f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
 至此，说明宏抽取的单例已经可以使用。
